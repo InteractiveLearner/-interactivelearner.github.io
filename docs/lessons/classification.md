@@ -40,14 +40,14 @@ Data can be classified with any one of the following methods
   :anchorText="'Credit: Axis Maps licensed under CC BY-ND 2.0'"
 />
 
-## Interaction
+## Style a choropleth map
 
-Coming soon
+<!-- Source https://leafletjs.com/examples/choropleth/ -->
 
-<!-- {/* ColorBrewer */}
-{/* Switch breaks between 1 to 6 and play with color palette */}
-{/* https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3 */}
-{/* https://github.com/axismaps/colorbrewer?tab=readme-ov-file */}
+<Choropleth />
+
+<!--
+{/* Switch breaks between 3 to 8 and play with color palette */}
 {/* Talk about sequential, diverging and qualitative color schemes */} -->
 
 ## Test your knowledge

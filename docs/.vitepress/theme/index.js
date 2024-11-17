@@ -12,6 +12,7 @@ import ScaleMap from "../../components/mapping/ScaleMap.vue";
 import VisualVariables from "../../components/mapping/VisualVariables.vue";
 import ReferenceMap from "../../components/mapping/ReferenceMap.vue";
 import ArcgisCalciteMap from "../../components/mapping/ArcgisCalciteMap.vue";
+import Choropleth from "../../components/mapping/Choropleth.vue";
 import ContentFigure from "../../components/ui/ContentFigure.vue";
 import Sources from "../../components/ui/Sources.vue";
 import Quiz from "../../components/ui/Quiz.vue";
@@ -30,6 +31,7 @@ export default {
     app.component("ScaleMap", ScaleMap);
     app.component("VisualVariables", VisualVariables);
     app.component("ReferenceMap", ReferenceMap);
+    app.component("Choropleth", Choropleth);
     app.component("ArcgisCalciteMap", ArcgisCalciteMap);
     app.component("ContentFigure", ContentFigure);
     app.component("Quiz", Quiz);
